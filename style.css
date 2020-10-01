@@ -1,12 +1,12 @@
-
+Awesome code
 html, body {
   padding: 0 0 0 0;
   margin: 0;
-  font-family: 'helvetica', 'arial', 'sans';
+  font-family:'Helvetica', 'Arial', 'Sans';
 }
 
 h1,h2,h3,h4 {
-  font-family: 'helvetica', 'arial', 'sans';
+  font-family:'Helvetica', 'Arial', 'Sans';
   }
 
 
@@ -28,7 +28,7 @@ a {
 .assignment {
   font-size: 12px;
   line-height: 24px;
-  font-family: 'helvetica', 'arial', 'sans';
+  font-family: 'Helvetica', 'Arial', 'Sans';
   padding: 20px 20px 20px 30px;
   width: 250px;
   height: 350px;
