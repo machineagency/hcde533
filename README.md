@@ -2,7 +2,6 @@
 
 In this assignment you will:
 
-- Install the Arduino IDE
 - Install Git and make a Github account
 - Install VS Code and some extensions
 - Set up and deploy a personal portfolio site to document your work in the class
@@ -12,15 +11,6 @@ channel on Discord. If you solve an issue or learn something that might help
 your fellow classmates, please post it in the #tips-and-tricks channel.
 
 Follow the instructions in Canvas to submit a link to your portfolio website.
-
-## Arduino Installation
-
-Download the Arduino IDE [here](https://www.arduino.cc/en/software). Install it
-and make sure it works:
-
-- Open up the "Blink" sketch under example projects
-- Click the check button in the upper left (this makes sure you are able to
-  verify/compile it)
 
 ## Git Installation
 
