@@ -1,69 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-html, body {
-  padding: 0 0 0 0;
-  margin: 0;
-  font-family: 'helvetica', 'arial', 'sans';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-h1,h2,h3,h4 {
-  font-family: 'helvetica', 'arial', 'sans';
-  }
+* {
+  margin: 0;
+}
 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
 
-a {
-  color: #000;
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  max-width: 1000px;
+  padding: 2em;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .header {
-  background: #fff;
-  color: #000;
-  height: 500px;
-  padding: 30px 30px 30px;
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
 }
 
-.header h1 {
-  font-size: 50px;
-  }
+.header img {
+  width: 50%;
+  object-fit: cover;
+}
 
-.assignment {
-  font-size: 12px;
-  line-height: 24px;
-  font-family: 'helvetica', 'arial', 'sans';
-  padding: 20px 20px 20px 30px;
-  width: 250px;
-  height: 350px;
-  float: left;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  margin-top: 2em;
 }
 
 .assignment a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .assignment a:hover {
-  background: #F06;
-  color: #F06;
-  text-decoration: none;
+  color: #f06;
 }
 
-
-.footer {
-    width: 1100px;
-    float: left;
-    padding: 300px 0px 30px 30px;
+.assignment img {
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
-.widebody {
-    width: 800px;
-    padding: 0px 30px 30px 30px;
+.assignment p {
+  margin-top: 0.5em;
 }
-
-.widebody a {
-}
-
-.widebody a:hover {
-  background: #F06;
-  color: #FFF;
-  text-decoration: none;
-}
-
