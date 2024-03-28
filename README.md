@@ -31,6 +31,8 @@ such as support for different languages.
 
 [Download and install Visual Studio Code.](https://code.visualstudio.com/).
 
+For this to work correctly on Mac OS, you also need to [have XCode installed.](https://developer.apple.com/xcode/)
+
 If you have a different editor preference (e.g., Sublime), you are welcome to
 use it.
 
