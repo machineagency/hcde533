@@ -96,8 +96,7 @@ you can clone your repo from VS Code's built-in source control interface:
 
 ### Copy in the template
 
-There is a folder called `template` in this (the class) repo. Copy the contents
-(the html files, the image, and the css file) into the your new portfolio repo
+Copy the contents of this repository (the html files, the image, and the css file) into the your new portfolio repo
 folder. You can download this repo as a zip file by going to the main page,
 clicking the green "Code" dropdown, and selecting "Download ZIP".
 
